@@ -1,4 +1,4 @@
-# Final Review for RFC-to-be 10063 (draft-XX) (in XML)
+# Final Review for RFC-to-be 10063 (draft-ietf-grow-nrtm-v4) (in XML)
 
 This repository is for managing document updates for RFC 10063 during Final Review (previously AUTH48). This is part of the [pilot GitHub-based process for Final Review](https://www.rfc-editor.org/rpc/wiki/doku.php?id=rpc_github_roadmap), and it emulates the [current Final Review procedure](https://authors.ietf.org/en/rfc-publication-process). 
 
