@@ -644,7 +644,7 @@
 
         <li>
           Mirror clients <bcp14>MUST</bcp14> implement ES256.
-          Mirror servers <bcp14>MAY</bcp14> use ES256 or other digital signature algorithms from the IANA "JOSE Web Signature and Encryption Algorithms" registry <xref target="IANA_jose"/>; the algorithm <bcp14>MUST NOT</bcp14> be "none", a MAC algorithm, or <tt>Deprecated</tt> or <tt>Prohibited</tt>.
+          Mirror servers <bcp14>MAY</bcp14> use ES256 or other digital signature algorithms from the IANA "JSON Web Signature and Encryption Algorithms" registry <xref target="IANA_jose"/>; the algorithm <bcp14>MUST NOT</bcp14> be "none", a MAC algorithm, or <tt>Deprecated</tt> or <tt>Prohibited</tt>.
           It is <bcp14>RECOMMENDED</bcp14> to use ES256 or other Recommended or Recommended+ algorithms.
           If a server uses an algorithm other than ES256, it is the server operator's responsibility to ensure their mirror clients support that algorithm.
         </li>
