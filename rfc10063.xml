@@ -69,7 +69,7 @@
   <abstract>
     <t>
       This document specifies a one-way synchronization protocol for Internet Routing Registry (IRR) records called Near Real Time Mirroring version 4 (NRTMv4) in which files are distributed over HTTPS.
-      The protocol allows instances of IRR database servers to mirror IRR records, specified in the Routing Policy Specification Language (RPSL), between each other.
+      The protocol allows instances of IRR Database servers to mirror IRR records, specified in the Routing Policy Specification Language (RPSL), between each other.
     </t>
   </abstract>
 
@@ -153,7 +153,7 @@
       </li>
       <li>
         Zero or more Delta Files.
-        These contain the changes between two database versions.
+        These contain the changes between two Database versions.
       </li>
      </ul>
      <t>
@@ -303,8 +303,8 @@
           </li>
         </ul>
         <t>
-          Mirror servers with high object churn are <bcp14>RECOMMENDED</bcp14> to generate new Snapshot Files more frequently than the required minimum to limit the length of the delta chain that clients must traverse on initialization or after a gap.
-          Long delta chains increase initialization time and resource consumption for mirror clients.
+          Mirror servers with high object churn are <bcp14>RECOMMENDED</bcp14> to generate new Snapshot Files more frequently than the required minimum to limit the length of the Delta chain that clients must traverse on initialization or after a gap.
+          Long Delta chains increase initialization time and resource consumption for mirror clients.
         </t>
       </section>
       <section><name>Snapshot Files</name>
