@@ -582,7 +582,7 @@
           The nrtm_version <bcp14>MUST</bcp14> be 4.
         </li>
         <li>
-          The timestamp <bcp14>MUST</bcp14> be an <xref target="RFC3339"/> timestamp with the time-offset set to "Z".
+          The timestamp <bcp14>MUST</bcp14> be in the format specified in <xref target="RFC3339"/> with the time-offset set to "Z".
         </li>
         <li>
           The type <bcp14>MUST</bcp14> be "notification".
