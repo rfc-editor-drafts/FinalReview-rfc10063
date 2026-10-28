@@ -563,9 +563,11 @@
   ],
   "metadata": {}
 }]]></sourcecode>
+     <aside>
       <t>
         Note: Hash and key values in this example are shortened because of formatting.
       </t>
+     </aside>
       <t>
         In this example, the overall version is 4, the snapshot is at version 3, and deltas are listed for versions 2, 3, and 4.
         The deltas at versions 2 and 3 predate the snapshot, but are still within the 24-hour retention window.
@@ -689,10 +691,11 @@
 ␞{"object": "route: 192.0.2.0/24\norigin: AS64500\nsource: EXAMPLE"}
 ␞{"object": "route6: 2001:db8::/32\norigin: AS64500\nsource: EXAMPLE"}
 ]]></sourcecode>
-
+<aside>
       <t>
         Note: IRR object texts in this example are shortened because of formatting.
       </t>
+</aside>
       <t>
         The file is in JSON Text Sequences <xref target="RFC7464" /> format and <bcp14>MUST</bcp14> contain one or more records (it must contain at least the header).
         The first record is the file header, and the following validation rules <bcp14>MUST</bcp14> be observed when creating or parsing a Snapshot File header:
@@ -769,10 +772,11 @@
   "action": "add_modify",
   "object": "route6: 2001:db8::/32\norigin: AS64500\nsource: EXAMPLE"
 }]]></sourcecode>
-
+<aside>
       <t>
         Note: IRR object texts in this example are shortened because of formatting.
       </t>
+</aside>
       <t>
         The file is in JSON Text Sequences <xref target="RFC7464" /> format and <bcp14>MUST</bcp14> contain two or more records (at least the header and one change).
         The first record is the file header and the following validation rules <bcp14>MUST</bcp14> be observed when creating or parsing a Delta File header:
