@@ -255,7 +255,7 @@
       </ul>
       <t>
         Note that a publication, and its associated session_ids and versions, always relates to a single specific IRR Database, even if multiple databases are published from one instance.
-        For example, a mirror server that serves two IRR Databases named EXAMPLE and EXAMPLE-NONAUTH will generate two Update Notification Files, referring to two Snapshot Files, and two sets of Delta Files each with contiguous version numbers -- all completely independent of each other, with different session IDs, potentially at different times.
+        For example, a mirror server that serves two IRR Databases named EXAMPLE and EXAMPLE-NONAUTH will generate two Update Notification Files, referring to two Snapshot Files and two sets of Delta Files. Each set of Delta Files has contiguous version numbers within the set and are completely independent of each other with different session IDs, potentially published at different times.
         This applies even if the same IRR server instance produces both.
       </t>
     </section>
