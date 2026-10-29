@@ -619,7 +619,7 @@
         </li>
         <li>
           The hash attribute in snapshot and delta elements <bcp14>MUST</bcp14> be the hexadecimal encoding of the SHA-256 hash of the referenced file.
-          This hash algorithm is fixed and independent of the JWS signing algorithm used for the Update Notification File to verify the integrity of the Snapshot and Delta Files.
+          This hash algorithm, used to verify the integrity of the Snapshot and Delta Files, is fixed and independent of the JWS signing algorithm used for the Update Notification File.
           The mirror client <bcp14>MUST</bcp14> verify this hash when the file is retrieved and reject the file if the hash does not match.
         </li>
         <li>
