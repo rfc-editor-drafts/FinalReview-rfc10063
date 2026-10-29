@@ -226,7 +226,7 @@
       </t>
       <t>
         It is <bcp14>RECOMMENDED</bcp14> that implementations provide easily accessible tools for operators to generate new signing keys to enter into their configuration and assist with key rotation.
-        All configuration options <bcp14>SHOULD</bcp14> be clearly named to indicate that they are private keys to reduce the risk of operator error causing accidental exposure.
+        All configuration options <bcp14>SHOULD</bcp14> be clearly named to indicate that they are private keys. Clear naming reduces the risk of operator error causing accidental exposure.
       </t>
     </section>
     <section anchor="mirror_server_snapshot_initialization"><name>Snapshot Initialization</name>
