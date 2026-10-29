@@ -463,7 +463,7 @@
         When a mirror client fails to retrieve any file due to a transient error, such as a network failure or an HTTP 5xx response, the client <bcp14>SHOULD</bcp14> retry before concluding the retrieval has failed.
         It is <bcp14>RECOMMENDED</bcp14> that implementations use a bounded exponential backoff strategy, starting from a short initial interval (e.g., a few seconds) up to a capped maximum interval (e.g., several minutes), with a bounded total retry duration.
         This prevents unnecessary Snapshot imports on clients and can prevent clients overwhelming a server on transient failures.
-        Mirror clients <bcp14>SHOULD</bcp14> log retry and recovery events, including the reason to assist operators in diagnosing mirroring failures.
+        Mirror clients <bcp14>SHOULD</bcp14> log retry and recovery events, including the reason, to assist operators in diagnosing mirroring failures.
       </t>
       <t>
         If a file is rejected, the mirror client <bcp14>MUST NOT</bcp14> load any data from it.
