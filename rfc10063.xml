@@ -68,7 +68,7 @@
 
   <abstract>
     <t>
-      This document specifies Near Real Time Mirroring version 4 (NRTMv4): a one-way synchronization protocol for Internet Routing Registry (IRR) records. NRTMv4 is based on files which are distributed over HTTPS.
+      This document specifies Near Real Time Mirroring version 4 (NRTMv4): a one-way synchronization protocol for Internet Routing Registry (IRR) records. NRTMv4 is based on files that are distributed over HTTPS.
       The protocol allows instances of IRR Database servers to mirror IRR records, specified in the Routing Policy Specification Language (RPSL), between each other.
     </t>
   </abstract>
