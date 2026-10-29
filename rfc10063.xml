@@ -190,7 +190,7 @@
   <section><name>Terminology</name>
     <dl spacing="normal" newline="false">
       <dt>IRR Database:</dt>
-      <dd>A logical collection of IRR objects represented in the RPSL. This does not imply any particular storage technology.</dd>
+      <dd>A logical collection of IRR objects represented in RPSL. This does not imply any particular storage technology.</dd>
       <dt>Snapshot File:</dt>
       <dd>A file that reflects the complete contents of the IRR objects in an IRR Database at a particular point in time.</dd>
       <dt>Delta File:</dt>
