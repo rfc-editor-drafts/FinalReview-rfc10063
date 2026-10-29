@@ -804,7 +804,7 @@
       </t>
       <ul>
         <li>
-          It has an action attribute, which is either "delete" for object deletions or "add_modify" for additions or modifications.
+          It has an "action" attribute, which is either "delete" for object deletions or "add_modify" for additions or modifications.
         </li>
         <li>
           If action is "delete": It has an "object_class" attribute with the RPSL object class name, and a "primary_key" attribute with the primary key of the deleted object.
