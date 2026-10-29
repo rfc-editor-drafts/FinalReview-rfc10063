@@ -901,7 +901,7 @@
             When mirror clients retrieve the Update Notification File next, they <bcp14>MUST</bcp14> detect the next_signing_key field and store the key in their configuration.
           </li>
           <li>
-            After allowing mirror clients time to have seen the new Update Notification File with the next_signing_key field, the mirror server operator configures the new key as currently active key and removes the old key.
+            After allowing mirror clients time to have seen the new Update Notification File with the next_signing_key field, the mirror server operator configures the new key as the currently active key and removes the old key.
             Any Update Notification File generated after this point <bcp14>MUST</bcp14> be signed with this new key and will not contain a next_signing_key field.
           </li>
           <li>
