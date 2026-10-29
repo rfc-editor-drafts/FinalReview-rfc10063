@@ -614,7 +614,7 @@
         <li>
           Each snapshot and delta element <bcp14>MUST</bcp14> have a version, URL, and hash attribute.
           The URL must be relative to the path of the Update Notification File.
-          For example, if the Update Notification File example above is published on https://example.com/nrtm/update-notification-file.json, the full URL for the referred snapshot is https://example.com/nrtm/ca128382-78d9-41d1-8927-1ecef15275be/nrtm-snapshot.2.047595d0fae972fbed0c51b4a41c7a349e0c47bb.json.gz.
+          For example, if the Update Notification File example above is published on https://example.com/nrtm/update-notification-file.jose, the full URL for the referred snapshot is https://example.com/nrtm/ca128382-78d9-41d1-8927-1ecef15275be/nrtm-snapshot.3.04759.json.gz.
           If the snapshot or delta file was compressed with GZIP, the filename <bcp14>MUST</bcp14> end in ".gz", and the hash <bcp14>MUST</bcp14> match the compressed data.
         </li>
         <li>
