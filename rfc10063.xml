@@ -895,7 +895,7 @@
           <li>
             The mirror server <bcp14>MUST</bcp14> include this key in the next_signing_key field in any Update Notification File generated while the new signing key is configured.
             Hence, the new signing key will start being propagated to the mirror clients with the next publication of the Notification File, which will take at most 24 hours.
-            Mirror server implementations <bcp14>MAY</bcp14> offer a method to cause the Update Notification File to be refreshed earlier, with the new_signing_key included, and thus start the propagation earlier.
+            Mirror server implementations <bcp14>MAY</bcp14> offer a method to cause the Update Notification File to be refreshed earlier, with the next_signing_key included, and thus start the propagation earlier.
           </li>
           <li>
             When mirror clients retrieve the Update Notification File next, they <bcp14>MUST</bcp14> detect the next_signing_key field and store the key in their configuration.
