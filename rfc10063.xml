@@ -698,7 +698,7 @@
 </aside>
       <t>
         The file is in JSON Text Sequences <xref target="RFC7464" /> format and <bcp14>MUST</bcp14> contain one or more records (it must contain at least the header).
-        The first record is the file header, and the following validation rules <bcp14>MUST</bcp14> be observed when creating or parsing a Snapshot File header:
+        The first record is the file header and the following validation rules <bcp14>MUST</bcp14> be observed when creating or parsing a Snapshot File header:
       </t>
       <ul>
         <li>
